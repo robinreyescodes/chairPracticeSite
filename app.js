@@ -1,7 +1,18 @@
 "use strict";
-const arr = [["A", "B"]];
+const arr = [
+  ["HTML", "Java"],
+  ["Java", "Python"],
+  ["Python", "HTML"],
+  ["C#", "Python"],
+  ["Java", "C#"],
+  ["C#", "HTML"],
+  ["SQL", "C#"],
+  ["HTML", "SQL"],
+  ["SQL", "Python"],
+  ["SQL", "Java"],
+];
 
-const results = [1];
+const results = [0, 0, 0, 0, 0, 0, 1, 0, 1, 1];
 
 let obj = {};
 
